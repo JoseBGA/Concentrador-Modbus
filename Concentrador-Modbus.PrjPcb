@@ -44,6 +44,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
+CurrentVariant=Final Designg
 
 [Preferences]
 PrefsVaultGUID=
@@ -53,10 +54,10 @@ PrefsRevisionGUID=
 DocumentPath=Cover.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
+AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -69,11 +70,11 @@ DocumentUniqueId=RTINZGDP
 [Document2]
 DocumentPath=Block diagram.SchDoc
 AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
+AnnotateStartValue=101
+AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -85,6 +86,40 @@ DocumentUniqueId=OSWEJQLR
 
 [Document3]
 DocumentPath=PSU.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=201
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=2
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=UJTDPDBX
+
+[Document4]
+DocumentPath=RS485 Buffer.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=301
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=3
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=YPLWEHMR
+
+[Document5]
+DocumentPath=Concentrador-Modbus.Annotation
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -98,7 +133,19 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=UJTDPDBX
+DocumentUniqueId=
+
+[ProjectVariant1]
+UniqueId=1ec0cbec-3990-46a5-a0f2-2b652b5736da
+Description=Final Designg
+AllowFabrication=0
+ParameterCount=0
+VariationCount=4
+Variation1=Designator=R?_Designator2|UniqueId=\WGIIYATD\XKVBYBUL|Kind=1|AlternatePart=
+Variation2=Designator=R?_Designator2|UniqueId=\WGIIYATD\KXMQMPNI|Kind=1|AlternatePart=
+Variation3=Designator=R?_Designator2|UniqueId=\WGIIYATD\ZYECDRQV|Kind=1|AlternatePart=
+Variation4=Designator=R?_Designator2|UniqueId=\WGIIYATD\YYZDPNHL|Kind=1|AlternatePart=
+ParamVariationCount=0
 
 [Configuration1]
 Name=Sources
@@ -943,7 +990,7 @@ Type61=0
 Type62=0
 Type63=0
 Type64=0
-Type65=2
+Type65=1
 Type66=3
 Type67=2
 Type68=2
@@ -1064,15 +1111,63 @@ L17=WNNNNNNNWNNNWWWWN
 
 [Annotate]
 SortOrder=3
-SortLocation=0
+SortLocation=1
 ReplaceSubparts=0
 MatchParameter1=Comment
 MatchStrictly1=1
 MatchParameter2=Library Reference
 MatchStrictly2=1
-PhysicalNamingFormat=$Component_$RoomName
+PhysicalNamingFormat=$ComponentPrefix$GlobalIndex
 GlobalIndexSortOrder=3
-GlobalIndexSortLocation=0
+GlobalIndexSortLocation=1
+UniqueIDPath0=
+DocumentName0=Block diagram.SchDoc
+IsEnabled0=1
+SelectionScope0=All
+Order0=1
+IndexEnabled0=1
+IndexStartValue0=101
+Suffix0=
+UniqueIDPath1=\ZQLIZHJY
+DocumentName1=PSU.SchDoc
+IsEnabled1=1
+SelectionScope1=All
+Order1=2
+IndexEnabled1=1
+IndexStartValue1=201
+Suffix1=
+UniqueIDPath2=\WGIIYATD
+DocumentName2=RS485 Buffer.SchDoc
+IsEnabled2=1
+SelectionScope2=All
+Order2=3
+IndexEnabled2=1
+IndexStartValue2=301
+Suffix2=
+UniqueIDPath3=\ONNJRQZE
+DocumentName3=RS485 Buffer.SchDoc
+IsEnabled3=1
+SelectionScope3=All
+Order3=4
+IndexEnabled3=1
+IndexStartValue3=401
+Suffix3=
+UniqueIDPath4=\ASTSVKZE
+DocumentName4=RS485 Buffer.SchDoc
+IsEnabled4=1
+SelectionScope4=All
+Order4=5
+IndexEnabled4=1
+IndexStartValue4=501
+Suffix4=
+UniqueIDPath5=\ULFTZHDJ
+DocumentName5=RS485 Buffer.SchDoc
+IsEnabled5=1
+SelectionScope5=All
+Order5=6
+IndexEnabled5=1
+IndexStartValue5=601
+Suffix5=
 
 [PrjClassGen]
 CompClassManualEnabled=0
@@ -1107,6 +1202,10 @@ SelectedOnly=0
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+
+[NetInfos]
+Net1=NetName=3V3|NetColor=$006666E0
+Net2=NetName=GND|NetColor=$00C6853D
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
