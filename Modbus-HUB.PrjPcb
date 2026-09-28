@@ -44,7 +44,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
-CurrentVariant=Final Designg
+CurrentVariant=Production (RJ Only)
 
 [Preferences]
 PrefsVaultGUID=
@@ -54,7 +54,7 @@ PrefsRevisionGUID=
 DocumentPath=Cover.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
-AnnotationIndexControlEnabled=1
+AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
 AnnotateOrder=0
@@ -70,8 +70,8 @@ DocumentUniqueId=RTINZGDP
 [Document2]
 DocumentPath=Block diagram.SchDoc
 AnnotationEnabled=1
-AnnotateStartValue=101
-AnnotationIndexControlEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
 AnnotateOrder=1
@@ -85,10 +85,27 @@ GenerateClassCluster=0
 DocumentUniqueId=OSWEJQLR
 
 [Document3]
+DocumentPath=Bus input.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=4
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=NTPHSFNT
+
+[Document4]
 DocumentPath=PSU.SchDoc
 AnnotationEnabled=1
-AnnotateStartValue=201
-AnnotationIndexControlEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
 AnnotateOrder=2
@@ -101,11 +118,11 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UJTDPDBX
 
-[Document4]
+[Document5]
 DocumentPath=RS485 Buffer.SchDoc
 AnnotationEnabled=1
-AnnotateStartValue=301
-AnnotationIndexControlEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
 AnnotateOrder=3
@@ -118,8 +135,110 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YPLWEHMR
 
-[Document5]
-DocumentPath=Concentrador-Modbus.Annotation
+[Document6]
+DocumentPath=Modbus-HUB.Annotation
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document7]
+DocumentPath=Bus output.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=5
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=UIMDJRAL
+
+[Document8]
+DocumentPath=Bus connector.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=6
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=AHKUUWYK
+
+[Document9]
+DocumentPath=Modbus HUB.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=SRVBVOIQ
+
+[Document10]
+DocumentPath=Modbus-HUB.SCHLIB
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=BSBRTAQQ
+
+[Document11]
+DocumentPath=Modbus HUB.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=EABJEGQU
+
+[Document12]
+DocumentPath=Modbus-HUB.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -137,15 +256,168 @@ DocumentUniqueId=
 
 [ProjectVariant1]
 UniqueId=1ec0cbec-3990-46a5-a0f2-2b652b5736da
-Description=Final Designg
+Description=Production
 AllowFabrication=0
 ParameterCount=0
-VariationCount=4
-Variation1=Designator=R?_Designator2|UniqueId=\WGIIYATD\XKVBYBUL|Kind=1|AlternatePart=
-Variation2=Designator=R?_Designator2|UniqueId=\WGIIYATD\KXMQMPNI|Kind=1|AlternatePart=
-Variation3=Designator=R?_Designator2|UniqueId=\WGIIYATD\ZYECDRQV|Kind=1|AlternatePart=
-Variation4=Designator=R?_Designator2|UniqueId=\WGIIYATD\YYZDPNHL|Kind=1|AlternatePart=
+VariationCount=18
+Variation1=Designator=R308|UniqueId=\WGIIYATD\XKVBYBUL|Kind=1|AlternatePart=
+Variation2=Designator=R306|UniqueId=\WGIIYATD\KXMQMPNI|Kind=1|AlternatePart=
+Variation3=Designator=R303|UniqueId=\WGIIYATD\ZYECDRQV|Kind=1|AlternatePart=
+Variation4=Designator=R301|UniqueId=\WGIIYATD\YYZDPNHL|Kind=1|AlternatePart=
+Variation5=Designator=R401|UniqueId=\ONNJRQZE\YYZDPNHL|Kind=1|AlternatePart=
+Variation6=Designator=R403|UniqueId=\ONNJRQZE\ZYECDRQV|Kind=1|AlternatePart=
+Variation7=Designator=R406|UniqueId=\ONNJRQZE\KXMQMPNI|Kind=1|AlternatePart=
+Variation8=Designator=R408|UniqueId=\ONNJRQZE\XKVBYBUL|Kind=1|AlternatePart=
+Variation9=Designator=R503|UniqueId=\ASTSVKZE\ZYECDRQV|Kind=1|AlternatePart=
+Variation10=Designator=R506|UniqueId=\ASTSVKZE\KXMQMPNI|Kind=1|AlternatePart=
+Variation11=Designator=R508|UniqueId=\ASTSVKZE\XKVBYBUL|Kind=1|AlternatePart=
+Variation12=Designator=R501|UniqueId=\ASTSVKZE\YYZDPNHL|Kind=1|AlternatePart=
+Variation13=Designator=R603|UniqueId=\ULFTZHDJ\ZYECDRQV|Kind=1|AlternatePart=
+Variation14=Designator=R606|UniqueId=\ULFTZHDJ\KXMQMPNI|Kind=1|AlternatePart=
+Variation15=Designator=R608|UniqueId=\ULFTZHDJ\XKVBYBUL|Kind=1|AlternatePart=
+Variation16=Designator=R601|UniqueId=\ULFTZHDJ\YYZDPNHL|Kind=1|AlternatePart=
+Variation17=Designator=P101|UniqueId=\LZQAMOKY\VRRPJHKD|Kind=1|AlternatePart=
+Variation18=Designator=P104|UniqueId=\GPSUHAKI\VRRPJHKD|Kind=1|AlternatePart=
 ParamVariationCount=0
+
+[ProjectVariant2]
+UniqueId=80eac6c4-9ff0-4512-bee9-17c67b6905a4
+Description=Production (RJ Only)
+AllowFabrication=0
+ParameterCount=0
+VariationCount=9
+Variation1=Designator=P101|UniqueId=\LZQAMOKY\VRRPJHKD|Kind=1|AlternatePart=
+Variation2=Designator=P302|UniqueId=\DXIXOYZC\IVBEBZVK|Kind=1|AlternatePart=
+Variation3=Designator=P402|UniqueId=\PLCVPOZX\IVBEBZVK|Kind=1|AlternatePart=
+Variation4=Designator=P502|UniqueId=\CFMLOZZT\IVBEBZVK|Kind=1|AlternatePart=
+Variation5=Designator=P602|UniqueId=\ZWGNWTBY\IVBEBZVK|Kind=1|AlternatePart=
+Variation6=Designator=R603|UniqueId=\ULFTZHDJ\ZYECDRQV|Kind=1|AlternatePart=
+Variation7=Designator=R601|UniqueId=\ULFTZHDJ\YYZDPNHL|Kind=1|AlternatePart=
+Variation8=Designator=R606|UniqueId=\ULFTZHDJ\KXMQMPNI|Kind=1|AlternatePart=
+Variation9=Designator=R608|UniqueId=\ULFTZHDJ\XKVBYBUL|Kind=1|AlternatePart=
+ParamVariationCount=0
+
+[ProjectVariant3]
+UniqueId=63246963-ced0-4bc8-9289-bf96b6b052e8
+Description=Production (Terminal Only)
+AllowFabrication=0
+ParameterCount=0
+VariationCount=22
+Variation1=Designator=R603|UniqueId=\ULFTZHDJ\ZYECDRQV|Kind=1|AlternatePart=
+Variation2=Designator=R601|UniqueId=\ULFTZHDJ\YYZDPNHL|Kind=1|AlternatePart=
+Variation3=Designator=R606|UniqueId=\ULFTZHDJ\KXMQMPNI|Kind=1|AlternatePart=
+Variation4=Designator=R608|UniqueId=\ULFTZHDJ\XKVBYBUL|Kind=1|AlternatePart=
+Variation5=Designator=P104|UniqueId=\GPSUHAKI\VRRPJHKD|Kind=1|AlternatePart=
+Variation6=Designator=P101|UniqueId=\LZQAMOKY\VRRPJHKD|Kind=1|AlternatePart=
+Variation7=Designator=R303|UniqueId=\WGIIYATD\ZYECDRQV|Kind=1|AlternatePart=
+Variation8=Designator=R301|UniqueId=\WGIIYATD\YYZDPNHL|Kind=1|AlternatePart=
+Variation9=Designator=R306|UniqueId=\WGIIYATD\KXMQMPNI|Kind=1|AlternatePart=
+Variation10=Designator=R308|UniqueId=\WGIIYATD\XKVBYBUL|Kind=1|AlternatePart=
+Variation11=Designator=R403|UniqueId=\ONNJRQZE\ZYECDRQV|Kind=1|AlternatePart=
+Variation12=Designator=R401|UniqueId=\ONNJRQZE\YYZDPNHL|Kind=1|AlternatePart=
+Variation13=Designator=R406|UniqueId=\ONNJRQZE\KXMQMPNI|Kind=1|AlternatePart=
+Variation14=Designator=R408|UniqueId=\ONNJRQZE\XKVBYBUL|Kind=1|AlternatePart=
+Variation15=Designator=R503|UniqueId=\ASTSVKZE\ZYECDRQV|Kind=1|AlternatePart=
+Variation16=Designator=R501|UniqueId=\ASTSVKZE\YYZDPNHL|Kind=1|AlternatePart=
+Variation17=Designator=R506|UniqueId=\ASTSVKZE\KXMQMPNI|Kind=1|AlternatePart=
+Variation18=Designator=R508|UniqueId=\ASTSVKZE\XKVBYBUL|Kind=1|AlternatePart=
+Variation19=Designator=P301|UniqueId=\DXIXOYZC\DQUQCADT|Kind=1|AlternatePart=
+Variation20=Designator=P401|UniqueId=\PLCVPOZX\DQUQCADT|Kind=1|AlternatePart=
+Variation21=Designator=P501|UniqueId=\CFMLOZZT\DQUQCADT|Kind=1|AlternatePart=
+Variation22=Designator=P601|UniqueId=\ZWGNWTBY\DQUQCADT|Kind=1|AlternatePart=
+ParamVariationCount=0
+
+[GeneratedDocument1]
+DocumentPath=C:\ProgramData\Altium\Altium Designer {A6B71054-A121-4179-AE89-8799F0E522DC}\Extensions\EMIStream\Data\odb\steps\pcb\layers\comp_+_top\components
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=C:\ProgramData\Altium\Altium Designer {A6B71054-A121-4179-AE89-8799F0E522DC}\Extensions\EMIStream\Data\odb\steps\pcb\eda\data
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for Modbus-HUB\Design Rule Check - Modbus HUB.html
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=C:\ProgramData\Altium\Altium Designer {A6B71054-A121-4179-AE89-8799F0E522DC}\Extensions\EMIStream\Data\odb\steps\pcb\layers\bottom_layer\features
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=C:\ProgramData\Altium\Altium Designer {A6B71054-A121-4179-AE89-8799F0E522DC}\Extensions\EMIStream\Data\odb\steps\pcb\layers\bottom_overlay\features
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=C:\ProgramData\Altium\Altium Designer {A6B71054-A121-4179-AE89-8799F0E522DC}\Extensions\EMIStream\Data\odb\steps\pcb\layers\bottom_paste\features
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=C:\ProgramData\Altium\Altium Designer {A6B71054-A121-4179-AE89-8799F0E522DC}\Extensions\EMIStream\Data\odb\steps\pcb\layers\bottom_solder\features
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=C:\ProgramData\Altium\Altium Designer {A6B71054-A121-4179-AE89-8799F0E522DC}\Extensions\EMIStream\Data\odb\steps\pcb\layers\comp_+_top\features
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=C:\ProgramData\Altium\Altium Designer {A6B71054-A121-4179-AE89-8799F0E522DC}\Extensions\EMIStream\Data\odb\steps\pcb\layers\dielectric_1\features
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=C:\ProgramData\Altium\Altium Designer {A6B71054-A121-4179-AE89-8799F0E522DC}\Extensions\EMIStream\Data\odb\steps\pcb\layers\drill_non-plated_bottom_layer-top_layer\features
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=C:\ProgramData\Altium\Altium Designer {A6B71054-A121-4179-AE89-8799F0E522DC}\Extensions\EMIStream\Data\odb\steps\pcb\layers\drill_plated_bottom_layer-top_layer\features
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=C:\ProgramData\Altium\Altium Designer {A6B71054-A121-4179-AE89-8799F0E522DC}\Extensions\EMIStream\Data\odb\steps\pcb\layers\top_layer\features
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=C:\ProgramData\Altium\Altium Designer {A6B71054-A121-4179-AE89-8799F0E522DC}\Extensions\EMIStream\Data\odb\steps\pcb\layers\top_overlay\features
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=C:\ProgramData\Altium\Altium Designer {A6B71054-A121-4179-AE89-8799F0E522DC}\Extensions\EMIStream\Data\odb\steps\pcb\layers\top_paste\features
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=C:\ProgramData\Altium\Altium Designer {A6B71054-A121-4179-AE89-8799F0E522DC}\Extensions\EMIStream\Data\odb\steps\pcb\layers\top_solder\features
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=C:\ProgramData\Altium\Altium Designer {A6B71054-A121-4179-AE89-8799F0E522DC}\Extensions\EMIStream\Data\odb\matrix\matrix
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=C:\ProgramData\Altium\Altium Designer {A6B71054-A121-4179-AE89-8799F0E522DC}\Extensions\EMIStream\Data\Modbus HUB.REP
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=C:\ProgramData\Altium\Altium Designer {A6B71054-A121-4179-AE89-8799F0E522DC}\Extensions\EMIStream\Data\odb\steps\pcb\netlists\cadnet\netlist
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=C:\ProgramData\Altium\Altium Designer {A6B71054-A121-4179-AE89-8799F0E522DC}\Extensions\EMIStream\Data\Pick Place for Modbus HUB(Final Designg).csv
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=C:\ProgramData\Altium\Altium Designer {A6B71054-A121-4179-AE89-8799F0E522DC}\Extensions\EMIStream\Data\odb\steps\pcb\profile
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=C:\ProgramData\Altium\Altium Designer {A6B71054-A121-4179-AE89-8799F0E522DC}\Extensions\EMIStream\Data\odb\steps\pcb\stephdr
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=C:\ProgramData\Altium\Altium Designer {A6B71054-A121-4179-AE89-8799F0E522DC}\Extensions\EMIStream\Data\odb\steps\pcb\layers\drill_non-plated_bottom_layer-top_layer\tools
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=C:\ProgramData\Altium\Altium Designer {A6B71054-A121-4179-AE89-8799F0E522DC}\Extensions\EMIStream\Data\odb\steps\pcb\layers\drill_plated_bottom_layer-top_layer\tools
+DItemRevisionGUID=
 
 [Configuration1]
 Name=Sources
@@ -470,6 +742,8 @@ OutputName10=ODB++ Files
 OutputDocumentPath10=
 OutputVariantName10=[No Variations]
 OutputDefault10=0
+Configuration10_Name1=OutputConfigurationParameter1
+Configuration10_Item1=Compression_None=True|Compression_tar_tgz=True|Compression_zip=True|DifferentFootprints=False|ExportPositivePlaneLayers=False|GenerateDRCRulesFile=False|IncludeUnconnectedMidLayerPads=False|IncludeVariantsData=False|IntentionalShorts=False|MergeNetTieNets=False|ObjsInsideBoardOutlineOnly=False|ODBProfileLayer=-1000|ODBProfileLayerV7=-1|PlotBackDrillingPairs=False|PlotBlindViasPairs=False|PlotBottomLayerPlot=True|PlotBottomOverlayPlot=True|PlotBottomPastePlot=True|PlotBottomSolderPlot=True|PlotCounterHolesPairs=False|PlotDrillDrawingPairs=False|PlotDrillGuidePairs=False|PlotInternalPlane10Plot=False|PlotInternalPlane11Plot=False|PlotInternalPlane12Plot=False|PlotInternalPlane13Plot=False|PlotInternalPlane14Plot=False|PlotInternalPlane15Plot=False|PlotInternalPlane16Plot=False|PlotInternalPlane1Plot=False|PlotInternalPlane2Plot=False|PlotInternalPlane3Plot=False|PlotInternalPlane4Plot=False|PlotInternalPlane5Plot=False|PlotInternalPlane6Plot=False|PlotInternalPlane7Plot=False|PlotInternalPlane8Plot=False|PlotInternalPlane9Plot=False|PlotKeepOutLayerPlot=False|PlotMechanical10Plot=False|PlotMechanical11Plot=False|PlotMechanical12Plot=False|PlotMechanical13Plot=False|PlotMechanical14Plot=False|PlotMechanical15Plot=False|PlotMechanical16Plot=False|PlotMechanical1Plot=False|PlotMechanical2Plot=False|PlotMechanical3Plot=False|PlotMechanical4Plot=False|PlotMechanical5Plot=False|PlotMechanical6Plot=False|PlotMechanical7Plot=False|PlotMechanical8Plot=False|PlotMechanical9Plot=False|PlotMicroViasPairs=False|PlotMidLayer10Plot=False|PlotMidLayer11Plot=False|PlotMidLayer12Plot=False|PlotMidLayer13Plot=False|PlotMidLayer14Plot=False|PlotMidLayer15Plot=False|PlotMidLayer16Plot=False|PlotMidLayer17Plot=False|PlotMidLayer18Plot=False|PlotMidLayer19Plot=False|PlotMidLayer1Plot=False|PlotMidLayer20Plot=False|PlotMidLayer21Plot=False|PlotMidLayer22Plot=False|PlotMidLayer23Plot=False|PlotMidLayer24Plot=False|PlotMidLayer25Plot=False|PlotMidLayer26Plot=False|PlotMidLayer27Plot=False|PlotMidLayer28Plot=False|PlotMidLayer29Plot=False|PlotMidLayer2Plot=False|PlotMidLayer30Plot=False|PlotMidLayer3Plot=False|PlotMidLayer4Plot=False|PlotMidLayer5Plot=False|PlotMidLayer6Plot=False|PlotMidLayer7Plot=False|PlotMidLayer8Plot=False|PlotMidLayer9Plot=False|PlotNPTHPairs=False|PlotPTHPairs=False|PlotTopLayerPlot=True|PlotTopOverlayPlot=True|PlotTopPastePlot=True|PlotTopSolderPlot=True|PlotViaTypeDrillDrawingPairs=False|PlotViaTypeDrillGuidePairs=False|PlotViaTypeDrillPairs=False|Record=ODBView|ToolsByDrillSymbols=False|Units=Metric|Version=8.1|DocumentPath=
 OutputType11=Plane
 OutputName11=Power-Plane Prints
 OutputDocumentPath11=
@@ -1110,7 +1384,7 @@ L16=WWWWNWWNWWWNWWWNW
 L17=WNNNNNNNWNNNWWWWN
 
 [Annotate]
-SortOrder=3
+SortOrder=1
 SortLocation=1
 ReplaceSubparts=0
 MatchParameter1=Comment
@@ -1118,7 +1392,7 @@ MatchStrictly1=1
 MatchParameter2=Library Reference
 MatchStrictly2=1
 PhysicalNamingFormat=$ComponentPrefix$GlobalIndex
-GlobalIndexSortOrder=3
+GlobalIndexSortOrder=1
 GlobalIndexSortLocation=1
 UniqueIDPath0=
 DocumentName0=Block diagram.SchDoc
@@ -1128,46 +1402,94 @@ Order0=1
 IndexEnabled0=1
 IndexStartValue0=101
 Suffix0=
-UniqueIDPath1=\ZQLIZHJY
-DocumentName1=PSU.SchDoc
+UniqueIDPath1=\DXIXOYZC
+DocumentName1=Bus connector.SchDoc
 IsEnabled1=1
 SelectionScope1=All
-Order1=2
+Order1=9
 IndexEnabled1=1
-IndexStartValue1=201
+IndexStartValue1=301
 Suffix1=
-UniqueIDPath2=\WGIIYATD
-DocumentName2=RS485 Buffer.SchDoc
+UniqueIDPath2=\PLCVPOZX
+DocumentName2=Bus connector.SchDoc
 IsEnabled2=1
 SelectionScope2=All
-Order2=3
+Order2=10
 IndexEnabled2=1
-IndexStartValue2=301
+IndexStartValue2=401
 Suffix2=
-UniqueIDPath3=\ONNJRQZE
-DocumentName3=RS485 Buffer.SchDoc
+UniqueIDPath3=\CFMLOZZT
+DocumentName3=Bus connector.SchDoc
 IsEnabled3=1
 SelectionScope3=All
-Order3=4
+Order3=11
 IndexEnabled3=1
-IndexStartValue3=401
+IndexStartValue3=501
 Suffix3=
-UniqueIDPath4=\ASTSVKZE
-DocumentName4=RS485 Buffer.SchDoc
+UniqueIDPath4=\ZWGNWTBY
+DocumentName4=Bus connector.SchDoc
 IsEnabled4=1
 SelectionScope4=All
-Order4=5
+Order4=12
 IndexEnabled4=1
-IndexStartValue4=501
+IndexStartValue4=601
 Suffix4=
-UniqueIDPath5=\ULFTZHDJ
-DocumentName5=RS485 Buffer.SchDoc
+UniqueIDPath5=\LZQAMOKY
+DocumentName5=Bus input.SchDoc
 IsEnabled5=1
 SelectionScope5=All
-Order5=6
+Order5=7
 IndexEnabled5=1
-IndexStartValue5=601
+IndexStartValue5=101
 Suffix5=
+UniqueIDPath6=\GPSUHAKI
+DocumentName6=Bus output.SchDoc
+IsEnabled6=1
+SelectionScope6=All
+Order6=8
+IndexEnabled6=1
+IndexStartValue6=101
+Suffix6=
+UniqueIDPath7=\ZQLIZHJY
+DocumentName7=PSU.SchDoc
+IsEnabled7=1
+SelectionScope7=All
+Order7=2
+IndexEnabled7=1
+IndexStartValue7=201
+Suffix7=
+UniqueIDPath8=\WGIIYATD
+DocumentName8=RS485 Buffer.SchDoc
+IsEnabled8=1
+SelectionScope8=All
+Order8=3
+IndexEnabled8=1
+IndexStartValue8=301
+Suffix8=
+UniqueIDPath9=\ONNJRQZE
+DocumentName9=RS485 Buffer.SchDoc
+IsEnabled9=1
+SelectionScope9=All
+Order9=4
+IndexEnabled9=1
+IndexStartValue9=401
+Suffix9=
+UniqueIDPath10=\ASTSVKZE
+DocumentName10=RS485 Buffer.SchDoc
+IsEnabled10=1
+SelectionScope10=All
+Order10=5
+IndexEnabled10=1
+IndexStartValue10=501
+Suffix10=
+UniqueIDPath11=\ULFTZHDJ
+DocumentName11=RS485 Buffer.SchDoc
+IsEnabled11=1
+SelectionScope11=All
+Order11=6
+IndexEnabled11=1
+IndexStartValue11=601
+Suffix11=
 
 [PrjClassGen]
 CompClassManualEnabled=0
@@ -1204,8 +1526,13 @@ UpdateToLatestRevision=1
 PartTypes=0
 
 [NetInfos]
-Net1=NetName=3V3|NetColor=$006666E0
-Net2=NetName=GND|NetColor=$00C6853D
+Net1=NetName=24V|NetColor=$003891E6
+Net2=NetName=24V_F|NetColor=clYellow
+Net3=NetName=24V_P|NetColor=$0066D9FF
+Net4=NetName=3V3|NetColor=$006666E0
+Net5=NetName=GND|NetColor=$00C6853D
+Net6=NetName=PGND|NetColor=$003D340C
+Net7=NetName=V_Fuse|NetColor=$00043F78
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
